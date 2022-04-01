@@ -1,5 +1,3 @@
-# This file wont do us much good in this location, make sure you change the path as directed to continue!
-
 name: Docker CD
 
 on:
@@ -64,5 +62,5 @@ jobs:
         username: ${{github.actor}}
         password: ${{secrets.GITHUB_TOKEN}}
         registry: docker.pkg.github.com
-        repository: MicWin75/github-actions-for-packages/tic-tac-toe
+        repository: micwin75/github-actions-for-packages/tic-tac-toe
         tag_with_sha: true
